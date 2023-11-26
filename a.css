@@ -1,0 +1,101 @@
+  /* Définir le style du corps du document */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+background-image: url("a.png");
+        }
+
+        /* Définir le style de la barre de navigation */
+        .navbar {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            color: white;
+            height: 60px;
+        }
+
+        /* Définir le style du logo */
+        .logo {
+            width: 200px;
+            height: 40px;
+            margin-left: 20px;
+        }
+
+        /* Définir le style des liens de la barre de navigation */
+        .nav-links {
+            display: flex;
+            list-style: none;
+            margin-left: auto;
+            margin-right: 20px;
+        }
+
+        .nav-links li {
+            margin: 0 10px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Définir le style du contenu principal */
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        /* Définir le style du titre principal */
+        .main-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #003366;
+        }
+
+        /* Définir le style du sous-titre */
+        .main-subtitle {
+            font-size: 24px;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+
+        /* Définir le style du bouton */
+        .main-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Définir le style du pied de page */
+        .footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #003366;
+            color: white;
+            height: 40px;
+        }
+        .no {
+              color: white;
+              background: url('vert.png');
+              position: absolute;
+              right: 7.875rem;
+              top: 5.75rem;
+          }
+         .nu {
+              color: white;
+              position: absolute;
+              right: 7.875rem;
+              top: 5.75rem;
+          }
+        
+
+
+
